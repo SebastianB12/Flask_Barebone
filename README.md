@@ -10,14 +10,14 @@ The setup includes:
 The structure is the following:
 
 Projectfolder:
-   -app
-    -main (main blueprint)
-     -exmample (2nd blueprint)
-     -static (static files)
-     -templates
-      -example (templates for 2nd blueprint)
-      -base.html (base template with Boostrap 4)
-      -index.html (sample template for the main blueprint)
-     -__init__.py
-    -config.py
-    -run.py
+-app
+ -main (main blueprint)
+  -exmample (2nd blueprint)
+  -static (static files)
+  -templates
+   -example (templates for 2nd blueprint)
+   -base.html (base template with Boostrap 4)
+   -index.html (sample template for the main blueprint)
+  -__init__.py
+ -config.py
+ -run.py
