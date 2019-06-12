@@ -18,6 +18,6 @@ Projectfolder:
     - example (templates for 2nd blueprint)
     - base.html (base template with Boostrap 4)
     - index.html (sample template for the main blueprint)
-  - __init__.py
+  - \__init\__.py
  - config.py
  - run.py
