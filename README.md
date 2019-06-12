@@ -1,20 +1,23 @@
-# Flask_Barebone
-Minimal Flask Setup
+# Flask Barebone
 
-Flask Barebone on PythonAnywhere
-Flask is a lightweight …..
+Flask Barebone is a minimal Flask Setup, which can be easily used for starting off every Flask project.
+The setup includes:
+- A typical Flask folder structure, which is easy to expand
+- Two prepared blueprints
+- Prepared Configuration file for more complex application configuration
+- Bootstrap 4 in the a base template
 
-I use this Barbone for every Flask project as a starting point:
+The structure is the following:
+
 Projectfolder
     -app
-        -main
-        -static
+        -main (main blueprint)
+        -exmample (2nd blueprint)
+        -static (static files)
         -templates
+            -example (templates for 2nd blueprint)
+            -base.html (base template with Boostrap 4)
+            -index.html (sample template for the main blueprint)
         -__init__.py
     -config.py
     -run.py
-
-
-Let's go through all files to understand what happens in each file:
-
-The starting file of the flask applicaiton in this case is "run.py" (It does not have to be named like that, it can has every name you want.)
