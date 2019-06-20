@@ -22,7 +22,7 @@ Projectfolder:
  - config.py
  - run.py
 
-To quickly deploy the flask app you can use e.g. Pythonanyshwere (https://www.pythonanywhere.com).
+To quickly deploy the flask app you can use e.g. Pythonanywhere (https://www.pythonanywhere.com).
 Just get your free account and create a web app.
 In the folder of the web app, open the bash console and pull the data from the repository.(git clone https://github.com/SebastianB12/Flask_Barebone:foldername .).
 Change the path and the name of the application in the WSGI file:
